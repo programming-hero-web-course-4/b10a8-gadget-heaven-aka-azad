@@ -1,0 +1,61 @@
+[
+  {
+    "product_id": "011",
+    "product_title": "Tablet Plus",
+    "product_image": "tablet_plus.jpg",
+    "category": "Tablet",
+    "price": 599.99,
+    "description": "A versatile tablet perfect for work and entertainment.",
+    "Specification": ["64GB Storage", "10.5-inch Display", "Quad Speakers"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "012",
+    "product_title": "Budget Tablet",
+    "product_image": "budget_tablet.jpg",
+    "category": "Tablet",
+    "price": 199.99,
+    "description": "Affordable tablet for everyday use.",
+    "Specification": ["32GB Storage", "8-inch Display", "Dual Speakers"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": "013",
+    "product_title": "Pro Tablet",
+    "product_image": "pro_tablet.jpg",
+    "category": "Tablet",
+    "price": 799.99,
+    "description": "High-end tablet with premium features.",
+    "Specification": ["128GB Storage", "12-inch Display", "Pen Support"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "014",
+    "product_title": "Kids Tablet",
+    "product_image": "kids_tablet.jpg",
+    "category": "Tablet",
+    "price": 149.99,
+    "description": "Durable tablet designed for kids.",
+    "Specification": ["16GB Storage", "7-inch Display", "Parental Controls"],
+    "availability": true,
+    "rating": 4.0
+  },
+  {
+    "product_id": "015",
+    "product_title": "Gaming Tablet",
+    "product_image": "gaming_tablet.jpg",
+    "category": "Tablet",
+    "price": 499.99,
+    "description": "Optimized for gaming with high performance.",
+    "Specification": [
+      "64GB Storage",
+      "10-inch Display",
+      "High Refresh Rate Screen"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]

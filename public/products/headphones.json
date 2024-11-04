@@ -1,0 +1,65 @@
+[
+  {
+    "product_id": "016",
+    "product_title": "Wireless Headphones",
+    "product_image": "wireless_headphones.jpg",
+    "category": "Headphones",
+    "price": 199.99,
+    "description": "Noise-cancelling wireless headphones with superior sound quality.",
+    "Specification": ["Bluetooth 5.0", "20-hour Battery", "Noise Cancellation"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "017",
+    "product_title": "Gaming Headset",
+    "product_image": "gaming_headset.jpg",
+    "category": "Headphones",
+    "price": 99.99,
+    "description": "Comfortable headset for immersive gaming.",
+    "Specification": [
+      "7.1 Surround Sound",
+      "Noise-Cancelling Microphone",
+      "RGB Lighting"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "018",
+    "product_title": "Studio Headphones",
+    "product_image": "studio_headphones.jpg",
+    "category": "Headphones",
+    "price": 299.99,
+    "description": "High-fidelity headphones for professional use.",
+    "Specification": ["Flat Response", "Detachable Cable", "Over-Ear Design"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "019",
+    "product_title": "In-Ear Monitors",
+    "product_image": "in_ear_monitors.jpg",
+    "category": "Headphones",
+    "price": 149.99,
+    "description": "Compact and high-quality in-ear monitors.",
+    "Specification": [
+      "Balanced Armature Drivers",
+      "Detachable Cable",
+      "Sound Isolation"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "020",
+    "product_title": "Sports Earbuds",
+    "product_image": "sports_earbuds.jpg",
+    "category": "Headphones",
+    "price": 79.99,
+    "description": "Sweat-resistant earbuds designed for sports.",
+    "Specification": ["Secure Fit", "Bluetooth 5.0", "Long Battery Life"],
+    "availability": true,
+    "rating": 4.2
+  }
+]

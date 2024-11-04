@@ -1,0 +1,234 @@
+[
+  {
+    "product_id": "001",
+    "product_title": "Laptop Pro 2023",
+    "product_image": "https://cdn.pixabay.com/photo/2023/09/19/01/29/ai-generated-8261674_1280.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "A high-performance laptop with cutting-edge features.",
+    "Specification": ["16GB RAM", "1TB SSD", "Intel i7"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "002",
+    "product_title": "UltraBook X",
+    "product_image": "https://cdn.pixabay.com/photo/2024/05/21/21/54/ai-generated-8779205_1280.png",
+    "category": "Laptop",
+    "price": 1499.99,
+    "description": "Sleek design with powerful performance.",
+    "Specification": ["16GB RAM", "512GB SSD", "Intel i7"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "003",
+    "product_title": "Gaming Beast",
+    "product_image": "https://img.freepik.com/premium-photo/laptop-dark-background-colorful-glow-ai-generated_868749-6144.jpg",
+    "category": "Laptop",
+    "price": 1799.99,
+    "description": "Designed for gamers with top-tier graphics.",
+    "Specification": ["32GB RAM", "1TB SSD", "NVIDIA RTX 3080"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "004",
+    "product_title": "Student Laptop",
+    "product_image": "https://img.freepik.com/premium-photo/ai-generated-wallpaper-modern-laptop-abstract-background_999340-216.jpg",
+    "category": "Laptop",
+    "price": 699.99,
+    "description": "Affordable and reliable for students.",
+    "Specification": ["8GB RAM", "256GB SSD", "Intel i5"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "005",
+    "product_title": "Business Laptop",
+    "product_image": "https://img.freepik.com/premium-photo/ai-generated-wallpaper-modern-laptop-abstract-background_999340-216.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "Perfect for business professionals.",
+    "Specification": ["16GB RAM", "512GB SSD", "Intel i7"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "006",
+    "product_title": "Smartphone X",
+    "product_image": "smartphone_x.jpg",
+    "category": "Mobile",
+    "price": 999.99,
+    "description": "A sleek and powerful smartphone with an impressive camera.",
+    "Specification": ["128GB Storage", "8GB RAM", "Triple Camera"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "007",
+    "product_title": "Budget Phone",
+    "product_image": "budget_phone.jpg",
+    "category": "Mobile",
+    "price": 299.99,
+    "description": "Affordable smartphone with essential features.",
+    "Specification": ["64GB Storage", "4GB RAM", "Dual Camera"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "008",
+    "product_title": "Flagship Phone",
+    "product_image": "flagship_phone.jpg",
+    "category": "Mobile",
+    "price": 1299.99,
+    "description": "High-end smartphone with the latest technology.",
+    "Specification": ["256GB Storage", "12GB RAM", "Quad Camera"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "009",
+    "product_title": "Gaming Phone",
+    "product_image": "gaming_phone.jpg",
+    "category": "Mobile",
+    "price": 899.99,
+    "description": "Optimized for mobile gaming.",
+    "Specification": ["128GB Storage", "8GB RAM", "High Refresh Rate Screen"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "010",
+    "product_title": "Compact Phone",
+    "product_image": "compact_phone.jpg",
+    "category": "Mobile",
+    "price": 499.99,
+    "description": "Compact design with powerful performance.",
+    "Specification": ["128GB Storage", "6GB RAM", "Dual Camera"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "011",
+    "product_title": "Tablet Plus",
+    "product_image": "tablet_plus.jpg",
+    "category": "Tablet",
+    "price": 599.99,
+    "description": "A versatile tablet perfect for work and entertainment.",
+    "Specification": ["64GB Storage", "10.5-inch Display", "Quad Speakers"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "012",
+    "product_title": "Budget Tablet",
+    "product_image": "budget_tablet.jpg",
+    "category": "Tablet",
+    "price": 199.99,
+    "description": "Affordable tablet for everyday use.",
+    "Specification": ["32GB Storage", "8-inch Display", "Dual Speakers"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": "013",
+    "product_title": "Pro Tablet",
+    "product_image": "pro_tablet.jpg",
+    "category": "Tablet",
+    "price": 799.99,
+    "description": "High-end tablet with premium features.",
+    "Specification": ["128GB Storage", "12-inch Display", "Pen Support"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "014",
+    "product_title": "Kids Tablet",
+    "product_image": "kids_tablet.jpg",
+    "category": "Tablet",
+    "price": 149.99,
+    "description": "Durable tablet designed for kids.",
+    "Specification": ["16GB Storage", "7-inch Display", "Parental Controls"],
+    "availability": true,
+    "rating": 4.0
+  },
+  {
+    "product_id": "015",
+    "product_title": "Gaming Tablet",
+    "product_image": "gaming_tablet.jpg",
+    "category": "Tablet",
+    "price": 499.99,
+    "description": "Optimized for gaming with high performance.",
+    "Specification": [
+      "64GB Storage",
+      "10-inch Display",
+      "High Refresh Rate Screen"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "016",
+    "product_title": "Wireless Headphones",
+    "product_image": "wireless_headphones.jpg",
+    "category": "Headphones",
+    "price": 199.99,
+    "description": "Noise-cancelling wireless headphones with superior sound quality.",
+    "Specification": ["Bluetooth 5.0", "20-hour Battery", "Noise Cancellation"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "017",
+    "product_title": "Gaming Headset",
+    "product_image": "gaming_headset.jpg",
+    "category": "Headphones",
+    "price": 99.99,
+    "description": "Comfortable headset for immersive gaming.",
+    "Specification": [
+      "7.1 Surround Sound",
+      "Noise-Cancelling Microphone",
+      "RGB Lighting"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "018",
+    "product_title": "Studio Headphones",
+    "product_image": "studio_headphones.jpg",
+    "category": "Headphones",
+    "price": 299.99,
+    "description": "High-fidelity headphones for professional use.",
+    "Specification": ["Flat Response", "Detachable Cable", "Over-Ear Design"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "019",
+    "product_title": "In-Ear Monitors",
+    "product_image": "in_ear_monitors.jpg",
+    "category": "Headphones",
+    "price": 149.99,
+    "description": "Compact and high-quality in-ear monitors.",
+    "Specification": [
+      "Balanced Armature Drivers",
+      "Detachable Cable",
+      "Sound Isolation"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "020",
+    "product_title": "Sports Earbuds",
+    "product_image": "sports_earbuds.jpg",
+    "category": "Headphones",
+    "price": 79.99,
+    "description": "Sweat-resistant earbuds designed for sports.",
+    "Specification": ["Secure Fit", "Bluetooth 5.0", "Long Battery Life"],
+    "availability": true,
+    "rating": 4.2
+  }
+]
