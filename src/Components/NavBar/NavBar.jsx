@@ -16,7 +16,7 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className=" bg-default-color rounded-t-3xl  p-0 text-white lg:mx-8 lg:mt-8 mx-auto mb-0">
+      <div className=" bg-default-color rounded-t-3xl  p-0  text-white lg:mx-8 lg:mt-8 sm:mt-6 mt-4 mx-auto mb-0">
         <div className="navbar max-w-[1280px] mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
@@ -47,7 +47,7 @@ const NavBar = () => {
                 {navLinks}
               </ul>
             </div>
-            <Link to="/home" className="btn btn-ghost text-xl">
+            <Link to="/" className="btn btn-ghost text-xl">
               Gadget Heaven
             </Link>
           </div>
