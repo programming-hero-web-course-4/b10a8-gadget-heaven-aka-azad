@@ -17,6 +17,18 @@
     "product_image": "https://cdn.pixabay.com/photo/2024/05/21/21/54/ai-generated-8779205_1280.png",
     "category": "Laptop",
     "category_id": "1",
+    "price": 1499.99,
+    "description": "Sleek design with powerful performance.",
+    "Specification": ["16GB RAM", "512GB SSD", "Intel i7"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "0021",
+    "product_title": "UltraBook X",
+    "product_image": "https://cdn.pixabay.com/photo/2024/05/21/21/54/ai-generated-8779205_1280.png",
+    "category": "Laptop",
+    "category_id": "1",
 
     "price": 1499.99,
     "description": "Sleek design with powerful performance.",

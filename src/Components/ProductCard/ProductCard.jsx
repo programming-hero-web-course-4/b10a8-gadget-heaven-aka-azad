@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
   const {
@@ -20,7 +21,7 @@ const ProductCard = ({ product }) => {
         <h2 className="mb-4 text-2xl font-semibold">{product_title}</h2>
         <p className="mb-4 opacity-60 font-medium">Price: {price}$</p>
         <div className="card-actions justify-start">
-          <button className="btn btn-outline border-2 border-default-color text-default-color rounded-full">View Details</button>
+          <Link className="btn btn-outline border-2 border-default-color text-default-color rounded-full">View Details</Link>
         </div>
       </div>
     </div>

@@ -1,6 +1,9 @@
-import { Link, NavLink } from "react-router-dom";
+import clsx from "clsx";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
+  console.log(location.search);
   const navLinks = (
     <>
       <li>
@@ -16,7 +19,12 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className=" bg-default-color rounded-t-3xl  p-0  text-white lg:mx-8 lg:mt-8 sm:mt-6 mt-4 mx-auto mb-0">
+      <div
+        className={clsx(
+          "rounded-t-3xl  p-0 lg:mx-8 lg:mt-8 sm:mt-6 mt-4 mx-auto mb-0",
+          { "bg-default-color text-white": location.search == "?filter=home" }
+        )}
+      >
         <div className="navbar max-w-[1280px] mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
@@ -52,7 +60,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div className="navbar-center hidden  lg:flex">
-            <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+            <ul className="menu menu-horizontal gap-2 px-1">{navLinks}</ul>
           </div>
           <div className="navbar-end gap-4">
             <Link className="btn btn-circle">
