@@ -1,18 +1,19 @@
 import PropTypes from "prop-types";
-import { NavLink, useSearchParams } from "react-router-dom";
+import { NavLink, useLocation, useSearchParams } from "react-router-dom";
 import clsx from "clsx";
 
 const GadgetsCategories = ({ categories }) => {
+  let location = useLocation();
   let [search] = useSearchParams();
-  console.log(search.get('filter'))
   return (
     <div className="border-2 border-base-content bg-white border-opacity-20 p-6 grid gap-6 rounded-2xl">
       <NavLink
         className={clsx(
           "btn btn-ghost w-full rounded-full text-left font-medium text-lg",
           {
-            " bg-default-color text-white": search.get("filter") === "home",
-          }
+            " bg-default-color text-white": location.search === "?filter=home",
+          },
+          { " bg-default-color text-white": location.search === "" }
         )}
         to={{ pathname: "/", search: `filter=home` }}
       >

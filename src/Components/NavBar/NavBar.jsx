@@ -1,9 +1,10 @@
 import clsx from "clsx";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import heartLogo from "../../../public/logos-images/heart.svg";
+import cartLogo from "../../../public/logos-images/cart.svg";
 
 const NavBar = () => {
   const location = useLocation();
-  console.log(location.search);
   const navLinks = (
     <>
       <li>
@@ -22,7 +23,12 @@ const NavBar = () => {
       <div
         className={clsx(
           "rounded-t-3xl  p-0 lg:mx-8 lg:mt-8 sm:mt-6 mt-4 mx-auto mb-0",
-          { "bg-default-color text-white": location.search == "?filter=home" }
+          { "bg-default-color text-white": location.search == "?filter=home" },
+          {
+            "bg-default-color text-white":
+              location.pathname == "/" && location.search == "",
+          },
+          { "bg-default-color text-white": location.search == null }
         )}
       >
         <div className="navbar max-w-[1280px] mx-auto">
@@ -64,10 +70,10 @@ const NavBar = () => {
           </div>
           <div className="navbar-end gap-4">
             <Link className="btn btn-circle">
-              <img src="logos-images/cart.svg" alt="" />
+              <img src={cartLogo} alt="" />
             </Link>
             <Link className="btn btn-circle">
-              <img src="logos-images/heart.svg" alt="" />
+              <img src={heartLogo} alt="" />
             </Link>
           </div>
         </div>

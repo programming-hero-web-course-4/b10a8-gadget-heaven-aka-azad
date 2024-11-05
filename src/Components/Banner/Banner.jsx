@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import bannerImg from '../../../public/logos-images/banner-hover-img.png'
 
 const Banner = () => {
   return (
@@ -27,7 +28,7 @@ const Banner = () => {
           <figure className="rounded-2xl object-center  overflow-hidden max-h-[610px] ">
             <img
               className="  h-full  w-full "
-              src="logos-images/banner-hover-img.png"
+              src={bannerImg}
               alt=""
             />
           </figure>

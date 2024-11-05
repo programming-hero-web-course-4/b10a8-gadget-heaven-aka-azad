@@ -3,8 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import ProductCard from "../ProductCard/ProductCard";
 
 const DisplayGadgets = () => {
-  const [params, setParams] = useSearchParams();
-
+  const [params] = useSearchParams();
 
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -13,7 +12,6 @@ const DisplayGadgets = () => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
-    setParams({ filter: "home" });
   }, []);
 
   useEffect(() => {
