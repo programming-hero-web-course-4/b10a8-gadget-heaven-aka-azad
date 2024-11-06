@@ -2,10 +2,24 @@ import { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import clsx from "clsx";
-import { CartContext, WishlistContext } from "../context/StoredContext";
-import PropTypes from "prop-types";
+import {
+  CartContext,
+  SetCartContext,
+  SetWishlistContext,
+  WishlistContext,
+} from "../context/StoredContext";
+import "react-toastify/dist/ReactToastify.css";
 
-const Details = ({ setCart, setWishlist }) => {
+import cartWhite from "../../assets/logos-images/cart-white.svg";
+import heatLogo from "../../assets/logos-images/heart.svg";
+import { toast, ToastContainer } from "react-toastify";
+import Error from "../Error/Error";
+
+const Details = () => {
+  const setWishlist = useContext(SetWishlistContext);
+
+  const setCart = useContext(SetCartContext);
+
   const cartList = useContext(CartContext);
   const wishlist = useContext(WishlistContext);
 
@@ -13,6 +27,8 @@ const Details = ({ setCart, setWishlist }) => {
   const [allProducts, setAllProducts] = useState([]);
   const [product, setProduct] = useState({});
   const [prodId, setProdId] = useState("");
+
+  const notify = toast;
 
   useEffect(() => {
     setProdId(params.get("filterproducts") ? params.get("filterproducts") : "");
@@ -33,15 +49,17 @@ const Details = ({ setCart, setWishlist }) => {
 
   const handleAddToCart = () => {
     !cartList.includes(prodId) && setCart([...cartList, prodId]);
+    notify("Added To Cart List");
   };
   const handleAddToWishlist = () => {
     !wishlist.includes(prodId) && setWishlist([...wishlist, prodId]);
+    notify("Added To Wishlist");
   };
 
   return (
     <>
       <>
-        {product && (
+        {product ? (
           <div>
             <div className="bg-default-color relative text-white text-center sm:mb-[400px]  pb-52">
               <h1 className="font-bold text-3xl mb-4 pt-8">Product Details</h1>
@@ -113,33 +131,27 @@ const Details = ({ setCart, setWishlist }) => {
                         onClick={handleAddToCart}
                         className="btn px-5 py-2 bg-default-color rounded-full font-bold text-lg text-white"
                       >
-                        Add To Cart{" "}
-                        <img src="logos-images/cart-white.svg" alt="" />
+                        Add To Cart <img src={cartWhite} alt="" />
                       </button>
                       <button
                         onClick={handleAddToWishlist}
                         className="btn bg-transparent border-2 border-base-300 text-lg btn-circle"
                       >
-                        <img
-                          src="logos-images/heart.svg"
-                          alt="Add to wishlist"
-                        />
+                        <img src={heatLogo} alt="Add to wishlist" />
                       </button>
+                      <ToastContainer position="top-center" autoClose={2000} />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        ) : (
+          <Error />
         )}
       </>
     </>
   );
-};
-
-Details.propTypes = {
-  setCart: PropTypes.func,
-  setWishlist: PropTypes.func,
 };
 
 export default Details;

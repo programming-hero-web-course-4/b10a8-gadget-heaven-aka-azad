@@ -1,10 +1,22 @@
 import clsx from "clsx";
-import { Link, NavLink, useLocation } from "react-router-dom";
-import heartLogo from "../../../public/logos-images/heart.svg";
-import cartLogo from "../../../public/logos-images/cart.svg";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import heartLogo from "../../assets/logos-images/heart.svg";
+import cartLogo from "../../assets/logos-images/cart.svg";
+import { useContext } from "react";
+import {
+  CartContext,
+  SetShowCartContext,
+  WishlistContext,
+} from "../context/StoredContext";
 
 const NavBar = () => {
   const location = useLocation();
+
+  const cart = useContext(CartContext);
+  const wishlist = useContext(WishlistContext);
+  const setShowCart = useContext(SetShowCartContext);
+  const navigate = useNavigate();
+
   const navLinks = (
     <>
       <li>
@@ -16,8 +28,20 @@ const NavBar = () => {
       <li>
         <NavLink to="/dashboard">Dashboard</NavLink>
       </li>
+      <li>
+        <NavLink to="/history">History</NavLink>
+      </li>
     </>
   );
+
+  const handleShowCart = () => {
+    navigate("/dashboard");
+    setShowCart(true);
+  };
+  const handleShowWishlist = () => {
+    navigate("/dashboard");
+    setShowCart(false);
+  };
   return (
     <>
       <div
@@ -69,12 +93,26 @@ const NavBar = () => {
             <ul className="menu menu-horizontal gap-2 px-1">{navLinks}</ul>
           </div>
           <div className="navbar-end gap-4">
-            <Link className="btn btn-circle">
-              <img src={cartLogo} alt="" />
-            </Link>
-            <Link className="btn btn-circle">
-              <img src={heartLogo} alt="" />
-            </Link>
+            <div className="relative inline-block">
+              <button onClick={handleShowCart} className="btn btn-circle">
+                <img src={cartLogo} alt="" />
+              </button>
+              {cart.length > 0 && (
+                <span className="absolute border border-default-color top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs  leading-none text-white bg-default-hover rounded-full transform translate-x-1/2 -translate-y-1/2">
+                  {cart.length}
+                </span>
+              )}
+            </div>
+            <div className="relative inline-block">
+              <button onClick={handleShowWishlist} className="btn btn-circle">
+                <img src={heartLogo} alt="" />
+              </button>
+              {wishlist.length > 0 && (
+                <span className="absolute border border-default-color top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs  leading-none text-white bg-default-hover rounded-full transform translate-x-1/2 -translate-y-1/2">
+                  {wishlist.length}
+                </span>
+              )}
+            </div>
           </div>
         </div>
       </div>

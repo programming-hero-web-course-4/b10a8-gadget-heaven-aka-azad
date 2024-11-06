@@ -1,18 +1,30 @@
 import PropTypes from "prop-types";
 import cross from "../../assets/logos-images/cross.svg";
 import { useContext } from "react";
-import { CartContext, SetCartContext } from "../context/StoredContext";
+import {
+  CartContext,
+  SetCartContext,
+  SetWishlistContext,
+  WishlistContext,
+} from "../context/StoredContext";
+import cartWhite from "../../assets/logos-images/cart-white.svg";
 
-const CartListCard = ({ product }) => {
+const WishlistCard = ({ product }) => {
+  const editWishlist = useContext(SetWishlistContext);
+  const wishlist = useContext(WishlistContext);
   const editCart = useContext(SetCartContext);
   const cart = useContext(CartContext);
+
   const { product_id, product_title, description, product_image, price } =
     product;
 
   const handleDeleteFromCart = () => {
-    editCart(cart.filter((id) => id != product_id));
+    editWishlist(wishlist.filter((id) => id != product_id));
   };
-
+  const handleAddToCart = () => {
+    !cart.includes(product_id) && editCart([...cart, product_id]);
+    editWishlist(wishlist.filter((id) => id != product_id));
+  };
   return (
     <div className="flex p-8 bg-white rounded-2xl gap-8">
       <div className="max-w-52 max-h-[132px] rounded-xl">
@@ -26,7 +38,15 @@ const CartListCard = ({ product }) => {
         <div>
           <h1 className="font-semibold text-2xl mb-5">{product_title}</h1>
           <p className="opacity-60 text-lg mb-4">{description}</p>
-          <p className="font-semibold text-xl opacity-80">Price: {price}$</p>
+          <div className="flex gap-4 items-center">
+            <p className="font-semibold text-xl opacity-80">Price: {price}$</p>
+            <button
+              onClick={handleAddToCart}
+              className="btn px-5 py-2 bg-default-color rounded-full font-bold text-base text-white"
+            >
+              Add To Cart <img src={cartWhite} alt="" />
+            </button>{" "}
+          </div>
         </div>
         <div className="">
           <button
@@ -41,8 +61,8 @@ const CartListCard = ({ product }) => {
   );
 };
 
-CartListCard.propTypes = {
+WishlistCard.propTypes = {
   product: PropTypes.object,
 };
 
-export default CartListCard;
+export default WishlistCard;
