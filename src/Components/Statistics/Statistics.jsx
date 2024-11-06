@@ -1,6 +1,12 @@
+import { Helmet } from "react-helmet";
+
 const Statistics = () => {
   return (
     <div>
+      <Helmet>
+            <title>Gadget Heaven - Statistics</title>
+            <meta name="description" content="Statistics"/>
+        </Helmet>
       <div className="text-center bg-default-color text-white py-8 mb-12">
         <h1 className="text-3xl font-bold mb-4">Statistics</h1>
         <p className="mb-8 max-w-[800px] mx-auto">

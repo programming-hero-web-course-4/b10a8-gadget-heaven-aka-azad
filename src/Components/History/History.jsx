@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { PurchaseHistoryContext } from "../context/StoredContext";
 import HistoryCard from "../HistoryCard/HistoryCard";
+import { Helmet } from "react-helmet";
 
 const History = () => {
   const purchaseHistory = useContext(PurchaseHistoryContext);
@@ -21,6 +22,10 @@ const History = () => {
   }, [allProducts, purchaseHistory]);
   return (
     <div>
+        <Helmet>
+            <title>Gadget Heaven - History</title>
+            <meta name="description" content="history"/>
+        </Helmet>
       <div className="text-center bg-default-color text-white py-8 mb-12">
         <h1 className="text-3xl font-bold mb-4">History</h1>
         <p className="mb-8 max-w-[800px] mx-auto">

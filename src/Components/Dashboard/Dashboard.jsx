@@ -8,6 +8,7 @@ import {
 import Cart from "../Cart/Cart";
 import Wishlist from "../Wishlist/Wishlist";
 import clsx from "clsx";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   const cartData = useContext(CartContext);
@@ -23,6 +24,10 @@ const Dashboard = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven - Dashboard</title>
+        <meta name="description" content="Dashboard" />
+      </Helmet>
       <div className="text-center bg-default-color text-white py-8 mb-12">
         <h1 className="text-3xl font-bold mb-4">Dashboard</h1>
         <p className="mb-8 max-w-[800px] mx-auto">

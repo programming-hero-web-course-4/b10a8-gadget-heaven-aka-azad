@@ -14,6 +14,7 @@ import cartWhite from "../../assets/logos-images/cart-white.svg";
 import heatLogo from "../../assets/logos-images/heart.svg";
 import { toast, ToastContainer } from "react-toastify";
 import Error from "../Error/Error";
+import { Helmet } from "react-helmet";
 
 const Details = () => {
   const setWishlist = useContext(SetWishlistContext);
@@ -59,6 +60,10 @@ const Details = () => {
   return (
     <>
       <>
+        <Helmet>
+          <title>Gadget Heaven - Description</title>
+          <meta name="description" content="Description" />
+        </Helmet>
         {product ? (
           <div>
             <div className="bg-default-color relative text-white text-center sm:mb-[400px]  pb-52">
