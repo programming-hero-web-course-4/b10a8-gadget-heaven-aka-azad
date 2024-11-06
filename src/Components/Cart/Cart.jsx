@@ -67,7 +67,7 @@ const Cart = ({ cartList }) => {
           <p className="text-2xl font-bold ">Cart</p>
         </div>
         <div className="md:flex items-center gap-6 mb-5">
-          <div className="h-fit mb-5">
+          <div className="h-fit md:mb-0 mb-5">
             <p className="text-2xl font-bold ">Total Cost: {totalCost}$</p>
           </div>
           <button
