@@ -78,7 +78,7 @@
   {
     "product_id": "006",
     "product_title": "Smartphone X",
-    "product_image": "smartphone_x.jpg",
+    "product_image": "https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png",
     "category": "Mobile",
     "category_id": "2",
 
@@ -91,7 +91,7 @@
   {
     "product_id": "007",
     "product_title": "Budget Phone",
-    "product_image": "budget_phone.jpg",
+    "product_image": "https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png",
     "category": "Mobile",
     "category_id": "2",
     "price": 299.99,
@@ -103,7 +103,7 @@
   {
     "product_id": "008",
     "product_title": "Flagship Phone",
-    "product_image": "flagship_phone.jpg",
+    "product_image": "https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png",
     "category": "Mobile",
     "category_id": "2",
     "price": 1299.99,
@@ -115,7 +115,7 @@
   {
     "product_id": "009",
     "product_title": "Gaming Phone",
-    "product_image": "gaming_phone.jpg",
+    "product_image": "https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png",
     "category": "Mobile",
     "category_id": "2",
     "price": 899.99,
@@ -127,7 +127,7 @@
   {
     "product_id": "010",
     "product_title": "Compact Phone",
-    "product_image": "compact_phone.jpg",
+    "product_image": "https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png",
     "category": "Mobile",
     "category_id": "2",
     "price": 499.99,
@@ -139,7 +139,7 @@
   {
     "product_id": "011",
     "product_title": "Tablet Plus",
-    "product_image": "tablet_plus.jpg",
+    "product_image": "https://i5.walmartimages.com/seo/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.png",
     "category": "Tablet",
     "category_id": "3",
     "price": 599.99,
@@ -151,7 +151,7 @@
   {
     "product_id": "012",
     "product_title": "Budget Tablet",
-    "product_image": "budget_tablet.jpg",
+    "product_image": "https://i5.walmartimages.com/seo/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.png",
     "category": "Tablet",
     "category_id": "3",
     "price": 199.99,
@@ -163,7 +163,7 @@
   {
     "product_id": "013",
     "product_title": "Pro Tablet",
-    "product_image": "pro_tablet.jpg",
+    "product_image": "https://i5.walmartimages.com/seo/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.png",
     "category": "Tablet",
     "category_id": "3",
     "price": 799.99,
@@ -175,7 +175,7 @@
   {
     "product_id": "014",
     "product_title": "Kids Tablet",
-    "product_image": "kids_tablet.jpg",
+    "product_image": "https://i5.walmartimages.com/seo/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.png",
     "category": "Tablet",
     "category_id": "3",
     "price": 149.99,
@@ -187,7 +187,7 @@
   {
     "product_id": "015",
     "product_title": "Gaming Tablet",
-    "product_image": "gaming_tablet.jpg",
+    "product_image": "https://i5.walmartimages.com/seo/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.png",
     "category": "Tablet",
     "category_id": "3",
     "price": 499.99,
@@ -203,7 +203,7 @@
   {
     "product_id": "016",
     "product_title": "Wireless Headphones",
-    "product_image": "wireless_headphones.jpg",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg",
     "category": "Headphones",
     "category_id": "4",
     "price": 199.99,
@@ -215,7 +215,7 @@
   {
     "product_id": "017",
     "product_title": "Gaming Headset",
-    "product_image": "gaming_headset.jpg",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg",
     "category": "Headphones",
     "category_id": "4",
     "price": 99.99,
@@ -231,7 +231,7 @@
   {
     "product_id": "018",
     "product_title": "Studio Headphones",
-    "product_image": "studio_headphones.jpg",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg",
     "category": "Headphones",
     "category_id": "4",
     "price": 299.99,
@@ -243,7 +243,7 @@
   {
     "product_id": "019",
     "product_title": "In-Ear Monitors",
-    "product_image": "in_ear_monitors.jpg",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg",
     "category": "Headphones",
     "category_id": "4",
     "price": 149.99,
@@ -259,7 +259,7 @@
   {
     "product_id": "020",
     "product_title": "Sports Earbuds",
-    "product_image": "sports_earbuds.jpg",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg",
     "category": "Headphones",
     "category_id": "4",
     "price": 79.99,
@@ -271,7 +271,7 @@
   {
     "product_id": "101",
     "product_title": "Smartwatch Model A",
-    "product_image": "smartwatch_model_a.jpg",
+    "product_image": "https://assets.gadgetandgear.com/upload/media/1723096732277485.jpeg",
     "category": "Smart Watch",
     "category_id": "7",
     "price": 149.99,
@@ -283,7 +283,7 @@
   {
     "product_id": "102",
     "product_title": "Smartwatch Model B",
-    "product_image": "smartwatch_model_b.jpg",
+    "product_image": "https://assets.gadgetandgear.com/upload/media/1723096732277485.jpeg",
     "category": "Smart Watch",
     "category_id": "7",
     "price": 199.99,
@@ -295,7 +295,7 @@
   {
     "product_id": "103",
     "product_title": "Smartwatch Model C",
-    "product_image": "smartwatch_model_c.jpg",
+    "product_image": "https://assets.gadgetandgear.com/upload/media/1723096732277485.jpeg",
     "category": "Smart Watch",
     "category_id": "7",
     "price": 99.99,
@@ -307,7 +307,7 @@
   {
     "product_id": "104",
     "product_title": "Smartwatch Model D",
-    "product_image": "smartwatch_model_d.jpg",
+    "product_image": "https://assets.gadgetandgear.com/upload/media/1723096732277485.jpeg",
     "category": "Smart Watch",
     "category_id": "7",
     "price": 249.99,
@@ -319,7 +319,7 @@
   {
     "product_id": "105",
     "product_title": "Smartwatch Model E",
-    "product_image": "smartwatch_model_e.jpg",
+    "product_image": "https://assets.gadgetandgear.com/upload/media/1723096732277485.jpeg",
     "category": "Smart Watch",
     "category_id": "7",
     "price": 179.99,
@@ -335,7 +335,7 @@
   {
     "product_id": "201",
     "product_title": "Fast Charger",
-    "product_image": "fast_charger.jpg",
+    "product_image": "https://images.othoba.com/images/thumbs/0668555_proton-mobile-charger-re-qc18w.webp",
     "category": "Charger",
     "category_id": "8",
     "price": 29.99,
@@ -347,7 +347,7 @@
   {
     "product_id": "202",
     "product_title": "Wireless Charger",
-    "product_image": "wireless_charger.jpg",
+    "product_image": "https://images.othoba.com/images/thumbs/0668555_proton-mobile-charger-re-qc18w.webp",
     "category": "Charger",
     "category_id": "8",
     "price": 39.99,
@@ -359,7 +359,7 @@
   {
     "product_id": "203",
     "product_title": "Dual Port Charger",
-    "product_image": "dual_port_charger.jpg",
+    "product_image": "https://images.othoba.com/images/thumbs/0668555_proton-mobile-charger-re-qc18w.webp",
     "category": "Charger",
     "category_id": "8",
     "price": 24.99,
@@ -371,7 +371,7 @@
   {
     "product_id": "204",
     "product_title": "Car Charger",
-    "product_image": "car_charger.jpg",
+    "product_image": "https://images.othoba.com/images/thumbs/0668555_proton-mobile-charger-re-qc18w.webp",
     "category": "Charger",
     "category_id": "8",
     "price": 19.99,
@@ -383,7 +383,7 @@
   {
     "product_id": "205",
     "product_title": "Portable Charger",
-    "product_image": "portable_charger.jpg",
+    "product_image": "https://images.othoba.com/images/thumbs/0668555_proton-mobile-charger-re-qc18w.webp",
     "category": "Charger",
     "category_id": "8",
     "price": 34.99,
@@ -395,7 +395,7 @@
   {
     "product_id": "301",
     "product_title": "Power Bank 10000mAh",
-    "product_image": "power_bank_10000mah.jpg",
+    "product_image": "https://extremegadgets.com.bd/wp-content/uploads/2024/08/71u8DhmEu7L-01.jpeg",
     "category": "Power Bank",
     "category_id": "9",
     "price": 29.99,
@@ -407,7 +407,7 @@
   {
     "product_id": "302",
     "product_title": "Power Bank 20000mAh",
-    "product_image": "power_bank_20000mah.jpg",
+    "product_image": "https://extremegadgets.com.bd/wp-content/uploads/2024/08/71u8DhmEu7L-01.jpeg",
     "category": "Power Bank",
     "category_id": "9",
     "price": 49.99,
@@ -419,7 +419,7 @@
   {
     "product_id": "303",
     "product_title": "Wireless Power Bank",
-    "product_image": "wireless_power_bank.jpg",
+    "product_image": "https://extremegadgets.com.bd/wp-content/uploads/2024/08/71u8DhmEu7L-01.jpeg",
     "category": "Power Bank",
     "category_id": "9",
     "price": 39.99,
@@ -431,7 +431,7 @@
   {
     "product_id": "304",
     "product_title": "Solar Power Bank",
-    "product_image": "solar_power_bank.jpg",
+    "product_image": "https://extremegadgets.com.bd/wp-content/uploads/2024/08/71u8DhmEu7L-01.jpeg",
     "category": "Power Bank",
     "category_id": "9",
     "price": 59.99,
@@ -443,7 +443,7 @@
   {
     "product_id": "305",
     "product_title": "Mini Power Bank",
-    "product_image": "mini_power_bank.jpg",
+    "product_image": "https://extremegadgets.com.bd/wp-content/uploads/2024/08/71u8DhmEu7L-01.jpeg",
     "category": "Power Bank",
     "category_id": "9",
     "price": 19.99,
