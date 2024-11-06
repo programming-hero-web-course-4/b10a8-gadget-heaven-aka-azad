@@ -6,11 +6,11 @@ const GadgetsCategories = ({ categories }) => {
   let location = useLocation();
   let [search] = useSearchParams();
   return (
-    <div className="border-2 border-base-content bg-white border-opacity-20 p-6 grid gap-6 rounded-2xl">
+    <div className="border-2 border-base-content bg-white border-opacity-20 p-6 grid md:grid-cols-1 grid-cols-2 gap-6 rounded-2xl">
       <div>
         <NavLink
           className={clsx(
-            "btn btn-ghost w-full border-default-color rounded-full text-left font-medium text-lg",
+            "btn btn-ghost w-full border-default-color rounded-full text-left font-medium md:text-lg text-sm",
             {
               " bg-default-color text-white":
                 location.search === "?filter=home",
@@ -26,7 +26,7 @@ const GadgetsCategories = ({ categories }) => {
         <div key={category.category_id}>
           <NavLink
             className={clsx(
-              "btn btn-ghost w-full border-default-color rounded-full text-left font-medium text-lg",
+              "btn btn-ghost w-full border-default-color rounded-full text-left font-medium md:text-lg text-sm",
               {
                 " w-full bg-default-color text-white":
                   search.get("filter") === category.category_name.toLowerCase(),

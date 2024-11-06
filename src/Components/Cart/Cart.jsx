@@ -62,12 +62,12 @@ const Cart = ({ cartList }) => {
 
   return (
     <div className="">
-      <div className="flex justify-between items-center mb-8">
-        <div className="h-fit ">
+      <div className="md:flex justify-between items-center mb-8">
+        <div className="h-fit mb-5">
           <p className="text-2xl font-bold ">Cart</p>
         </div>
-        <div className="flex items-center gap-6">
-          <div className="h-fit ">
+        <div className="md:flex items-center gap-6 mb-5">
+          <div className="h-fit mb-5">
             <p className="text-2xl font-bold ">Total Cost: {totalCost}$</p>
           </div>
           <button

@@ -26,7 +26,7 @@ const DisplayGadgets = () => {
 
 
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid md:grid-cols-3 gap-6">
       {filteredProducts.map((product) => (
         <ProductCard key={product.product_id} product={product} />
       ))}

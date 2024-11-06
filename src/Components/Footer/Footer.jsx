@@ -8,7 +8,7 @@ const Footer = () => {
         </p>
       </div>
       <hr className="my-8 opacity-40" />
-      <div className="grid sm:grid-cols-3 gap-36 text-center">
+      <div className="grid sm:grid-cols-3 md:gap-36 gap-9 text-center">
         <div>
           <h1 className="mb-4 text-lg font-bold">Service</h1>
           <ul className="opacity-60 leading-loose">

@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="hero">
         <div className="hero-content text-center">
           <div className="max-w-[1120px] pt-10 pb-6">
-            <h1 className="sm:text-6xl text-4xl leading-tight font-bold">
+            <h1 className="sm:text-6xl text-3xl leading-tight font-bold">
               Upgrade Your Tech Accessorize with Gadget Heaven Accessories
             </h1>
             <p className="py-8 max-w-3xl mx-auto">

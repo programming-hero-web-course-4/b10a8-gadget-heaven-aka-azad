@@ -66,7 +66,7 @@ const Details = () => {
         </Helmet>
         {product ? (
           <div>
-            <div className="bg-default-color relative text-white text-center sm:mb-[400px]  pb-52">
+            <div className="bg-default-color relative text-white text-center mb-[600px] sm:mb-[400px]  pb-52">
               <h1 className="font-bold text-3xl mb-4 pt-8">Product Details</h1>
               <p className="max-w-3xl mx-auto pb-8">
                 Explore the latest gadgets that will take your experience to the
@@ -74,8 +74,8 @@ const Details = () => {
                 have it all!
               </p>
               <div className="absolute w-full ">
-                <div className="max-w-[1280px] flex gap-8 mx-auto p-8 rounded-3xl bg-white text-[#000]">
-                  <div className="h-[503px] w-[420px] ">
+                <div className="max-w-[1280px] flex md:flex-row flex-col gap-8 mx-auto p-8 rounded-3xl bg-white text-[#000]">
+                  <div className="max-h-[503px] max-w-[420px] ">
                     <img
                       className="h-full w-full object-cover rounded-2xl"
                       src={product.product_image}

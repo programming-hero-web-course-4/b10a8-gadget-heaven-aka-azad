@@ -4,10 +4,10 @@ const HistoryCard = ({ product }) => {
   const { product_title, description, product_image, price } = product;
 
   return (
-    <div className="flex p-8 bg-white rounded-2xl gap-8">
-      <div className="max-w-52 max-h-[132px] rounded-xl">
+    <div className="flex md:flex-row flex-col items-center p-8 bg-white rounded-2xl gap-8">
+      <div className="max-w-52 max-h-[132px] rounded-xl overflow-hidden">
         <img
-          className="h-full w-full rounded-xl object-cover"
+          className="h-full w-full rounded-xl object-center"
           src={product_image}
           alt={product_title}
         />

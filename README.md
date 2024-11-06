@@ -57,3 +57,7 @@ In this project I have used localStorage and context api, combination of both.
 - deleting from cart or wishlist
 - purchase product
 - see history of purchase
+
+## Break Point
+
+- width 400px

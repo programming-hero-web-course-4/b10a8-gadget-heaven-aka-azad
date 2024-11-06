@@ -16,7 +16,7 @@ const Home = () => {
         <Details />
       ) : (
         <>
-          <div className="sm:mb-[450px]">
+          <div className="sm:mb-[450px] mb-64">
             <Banner />
           </div>
           <Gadgets />

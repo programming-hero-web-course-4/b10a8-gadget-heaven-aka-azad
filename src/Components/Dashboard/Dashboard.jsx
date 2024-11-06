@@ -34,11 +34,11 @@ const Dashboard = () => {
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to the coolest accessories, we have it all!
         </p>
-        <div>
+        <div className=" ">
           <button
             onClick={handleShowCart}
             className={clsx(
-              "btn btn-outline rounded-full px-16 border-white  mr-6",
+              "btn btn-outline rounded-full md:px-16 border-white  mr-6",
               { "bg-white text-default-color font-extrabold": showCart },
               { "text-white": !showCart }
             )}
@@ -48,7 +48,7 @@ const Dashboard = () => {
           <button
             onClick={handleShowWishlist}
             className={clsx(
-              "btn btn-outline rounded-full px-16 border-white",
+              "btn btn-outline rounded-full md:px-16 border-white",
               { "bg-white text-default-color font-extrabold": !showCart },
               { "text-white": showCart }
             )}

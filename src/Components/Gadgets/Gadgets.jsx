@@ -17,11 +17,11 @@ const Gadgets = () => {
         </h1>
       </>
 
-      <div className="gap-6 grid grid-cols-5">
+      <div className="gap-6 grid md:grid-cols-5">
         <div>
           <GadgetsCategories categories={categories} />
         </div>
-        <div className="col-span-4 ">
+        <div className="md:col-span-4 ">
           <DisplayGadgets />
         </div>
       </div>
